@@ -45,7 +45,7 @@ section  {
 
 .characters h2 {
   font-size: 55x;
-  margin-left: 850px;
+  margin-left: 720px;
 }
 
 h1 {
@@ -73,19 +73,37 @@ nav a {
   }
 
 
-nav a:hover {
-    background-color: rgb(188, 91, 207);
+nav a.link:hover {
+    background-color: rgb(50, 31, 230);
     color: #ffff;
 }
-
-
+nav a.lonk:hover {
+    background-color: rgb(172, 35, 214);
+    color: #ffff;
+}
+nav a.lank:hover {
+    background-color: rgb(233, 38, 152);
+    color: #ffff;
+}
+nav a.lenk:hover {
+    background-color: rgb(91, 207, 97);
+    color: #ffff;
+}
+nav a.lynk:hover {
+    background-color: rgb(246, 250, 25);
+    color: #ffff;
+}
+nav a.lunk:hover {
+    background-color: skyblue;
+    color: #ffff;
+}
 
    img  {
     width: 1000px;
     margin: 20px 500px 0px 450px;
     border-radius: 30px;
   }
-
+  
   .about p{
     margin: 20px 0px 44px 0px;
     font-size: 20px;
@@ -145,54 +163,69 @@ iframe {
 .img4 {
   width: 340px;
   height: 340px;
-  margin: 20px;
+  margin-left: 140px;
+  position: relative;
+  top: -20px;
 }
+
 
 .img5 {
   width: 340px;
   height: 340px;
   position: relative;
   top: -683px;
-  margin-left: 420px;
+  margin-left: 550px;
 }
 
 .img6 {
   width: 340px;
   height: 340px;
   margin: 10px;
+  position: relative;
+  top: -1419px;
+  margin-left:970px;
 }
 
 .img7 {
   width: 340px;
   height: 340px;
   margin: 10px;
+  position: relative;
+  top: -2051px;
+  margin-left: 1390px;
 }
 
 .img8 {
   width: 340px;
   height: 340px;
-  margin: 10px;
+  margin: 0px;
+  position: relative;
+  top: -2000px;
+  margin-left: 355px;
 }
 .img9 {
   width: 340px;
   height: 340px;
-  margin: 165px 0px 0px 740px;
+  margin: 0px;
+  position: relative;
+  top: -2550px;
+  margin-left: 1155px;
 }
 
 .name p {
   font-size: 30px;
-  margin: 0px 0px 0px 25px;
+  margin: 0px 0px 0px 150px;
   color: rgb(230, 21, 21);  
 }
 
 .team p {
   font-size: 15px;
-  margin: 0px 0px 0px 25px;
+  margin: 0px 0px 0px 150px;
   color: #858588;
 }
 
 .description p {
-  margin: 0px 0px 0px 25px;
+  margin: 0px 0px 0px 150px;
   font-size: 19px;
 }
 
@@ -202,7 +235,7 @@ iframe {
   color: rgb(17, 13, 231);  
   position: relative;
   top: -663px;
-  margin-left: 420px;
+  margin-left: 555px;
 }
 
 .team1 p {
@@ -211,7 +244,7 @@ iframe {
   color: #858588;
   position: relative;
   top: -663px;
-  margin-left: 420px;
+  margin-left: 555px;
 }
 
 .description1 p {
@@ -219,5 +252,112 @@ iframe {
   font-size: 19px;
   position: relative;
   top: -663px;
-  margin-left: 420px;
+  margin-left: 555px;
+}
+
+.name2 p {
+  font-size: 30px;
+  margin: 0px 420px 0px 25px;
+  color: rgb(238, 238, 15);  
+  position: relative;
+  top: -1411px;
+  margin-left: 980px;
+}
+
+.team2 p {
+  font-size: 15px;
+  margin: 0px 0px 0px 25px;
+  color: #858588;
+  position: relative;
+  top: -1411px;
+  margin-left: 980px;
+}
+
+.description2 p {
+  margin: 0px 0px 0px 25px;
+  font-size: 19px;
+  position: relative;
+  top: -1411px;
+  margin-left: 980px;
+}
+
+.name3 p {
+  font-size: 30px;
+  margin: 0px 130px 100px 25px;
+  color: rgb(12, 207, 54);  
+  position: relative;
+  top: -2045px;
+  margin-left: 1390px;
+  display: inline;
+}
+
+.team3 p {
+  font-size: 15px;
+  margin: 0px 0px 0px 25px;
+  color: #858588;
+  position: relative;
+  top: -2046px;
+  margin-left: 1390px;
+}
+
+.description3 p {
+  margin: 0px 0px 0px 25px;
+  font-size: 19px;
+  position: relative;
+  top: -2046px;
+  margin-left: 1390px;
+}
+
+.name4 p {
+  font-size: 30px;
+  margin: 0px 200px 100px 25px;
+  color: rgb(140, 13, 224);  
+  position: relative;
+  top: -2000px;
+  margin-left: 355px;
+  display: inline;
+}
+
+.team4 p {
+  font-size: 15px;
+  margin: 0px 0px 0px 25px;
+  color: #858588;
+  position: relative;
+  top: -2000px;
+  margin-left: 355px;
+}
+
+.description4 p {
+  margin: 0px 0px 0px 25px;
+  font-size: 19px;
+  position: relative;
+  top: -2000px;
+  margin-left: 355px;
+}
+
+.name5 p {
+  font-size: 30px;
+  margin: 0px 200px 100px 25px;
+  color: skyblue;  
+  position: relative;
+  top: -2558px;
+  margin-left: 1160px;
+  display: inline;
+}
+
+.team5 p {
+  font-size: 15px;
+  margin: 0px 0px 0px 25px;
+  color: #858588;
+  position: relative;
+  top: -2558px;
+  margin-left: 1160px;
+}
+
+.description5 p {
+  margin: 0px 0px 0px 25px;
+  font-size: 19px;
+  position: relative;
+  top: -2558px;
+  margin-left: 1160px;
 }
