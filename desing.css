@@ -663,7 +663,7 @@ iframe {
 }
 
 .container {
-    margin-left: 180px;
+    margin-left: 100px;
     position: relative;
     top: 50px;
 }
@@ -677,6 +677,18 @@ iframe {
     border-radius: 12px;
 }
 
+.card1 {
+    height: 600px;
+    width: 570px;
+    background-color: #ebecef;
+    padding: 16px;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 720px;
+    margin-top: -550px;
+    position: relative;
+    top: -55px;
+}
 
 .blockImg {
     border-radius: 12px;
@@ -693,17 +705,19 @@ iframe {
 }
 
 .container1 {
-    display: block;
-    cursor: pointer;
-    user-select: none;
-    margin-left: 10px;
-    position: relative;
-    top: 6px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 350px;
+  top: -15px;
 }
 
-.container svg {
-  height: 60px;
-  width: 70px;
+.container1 svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
   transition: all 0.3s;
   fill: #666;
 }
@@ -713,5 +727,84 @@ iframe {
 }
 
 .container1 input:checked ~ svg {
-  fill: #e44891;
+  fill: #E3474F;
+}
+
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container2 {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 980px;
+  top: -120px;
+}
+
+.container2 svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: all 0.3s;
+  fill: #666;
+}
+
+.container2 svg:hover {
+  transform: scale(1.1);
+}
+
+.container2 input:checked ~ svg {
+  fill: #E3474F;
+}
+
+.card2 {
+    height: 600px;
+    width: 460px;
+    background-color: #ebecef;
+    padding: 16px;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 1350px;
+    margin-top: -710px;
+}
+
+.container3 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container3 {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 1040px;
+  top: -10px;
+}
+
+.container3 svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: all 0.3s;
+  fill: #666;
+}
+
+.container3 svg:hover {
+  transform: scale(1.1);
+}
+
+.container3 input:checked ~ svg {
+  fill: #E3474F;
 }
