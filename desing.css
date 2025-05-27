@@ -23,7 +23,7 @@ body {
 ul { 
     list-style-type: none;
     padding: 0px;
-    margin: 20px 500px 0px 675px;
+    margin: 20px 500px 0px 730px;
     display: flex;
     gap: 19px;
 }
@@ -699,14 +699,12 @@ iframe {
 .container1 input {
   position: absolute;
   opacity: 0;
-  cursor: pointer;
   height: 0;
   width: 0;
 }
 
 .container1 {
   position: relative;
-  cursor: pointer;
   user-select: none;
   margin-left: 350px;
   top: -15px;
@@ -733,14 +731,12 @@ iframe {
 .container2 input {
   position: absolute;
   opacity: 0;
-  cursor: pointer;
   height: 0;
   width: 0;
 }
 
 .container2 {
   position: relative;
-  cursor: pointer;
   user-select: none;
   margin-left: 980px;
   top: -120px;
@@ -778,17 +774,14 @@ iframe {
 .container3 input {
   position: absolute;
   opacity: 0;
-  cursor: pointer;
   height: 0;
   width: 0;
 }
 
 .container3 {
   position: relative;
-  cursor: pointer;
   user-select: none;
-  margin-left: 1040px;
-  top: -10px;
+  margin-left: 20px;
 }
 
 .container3 svg {
@@ -873,7 +866,7 @@ iframe {
 }
 
 .final {
-    margin-top: -160px;
+    margin-top: -40px;
     margin-left: 750px;
 }
 .all {
@@ -887,11 +880,14 @@ iframe {
     margin-top: 100px;  
 }
 
+.imgh {
+    margin-left: 100px;
+}
 
 .immg {
-    width: 33%;
+    width: 30%;
     display: inline-block;
-    margin: 0;
+    margin: 15px;
     padding: 0;
     border-radius: 20px;
     position: relative;
@@ -899,9 +895,9 @@ iframe {
 }
     
 .immg1 {
-    width: 33%;
+    width: 30%;
     display: inline-block;
-    margin: 0;
+    margin: 15px;
     padding: 0;
     border-radius: 20px;
     position: relative;
@@ -909,9 +905,9 @@ iframe {
 }
     
 .immg2 {
-    width: 33%;
+    width: 30%;
     display: inline-block;
-    margin: 0;
+    margin: 15px;
     padding: 0;
     border-radius: 20px;
     position: relative;
@@ -930,4 +926,117 @@ iframe {
 .immg2:hover {
     transform: scale(1.1);
     transition: 0.7s;
+}
+
+.opiss {
+    margin-top: 20px;
+    position: relative;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.opiss1 {
+    margin-top: -290px;
+    position: relative;
+    margin-left: 710px;
+    font-size: 20px;
+    font-weight: lighter;
+    top: -310px;
+}
+
+.opiss2 {
+    margin-top: -290px;
+    position: relative;
+    margin-left: 1270px;
+    font-size: 20px;
+    font-weight: lighter;
+    top: -310px;
+}
+
+.third {
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 250px;
+    margin-top: 100px;  
+}
+
+.immg5 {
+    width: 30%;
+    display: inline-block;
+    margin: 15px;
+    padding: 0;
+    border-radius: 20px;
+    position: relative;
+}
+
+.immg5:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.opisss {
+    margin-top: 20px;
+    position: relative;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.opisss1 {
+    margin-top: -50px;
+    position: relative;
+    margin-left: 710px;
+    font-size: 20px;
+    font-weight: lighter;
+    top: -340px;
+}
+
+.opisss2 {
+    margin-top: -240px;
+    position: relative;
+    margin-left: 1230px;
+    font-size: 20px;
+    font-weight: lighter;
+    top: -310px;
+}
+
+.opissss {
+    margin-top: 20px;
+    position: relative;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.opissss1 {
+    margin-top: -150px;
+    position: relative;
+    margin-left: 710px;
+    font-size: 20px;
+    font-weight: lighter;
+    top: -30px;
+}
+
+.opissss2 {
+    margin-top: -200px;
+    position: relative;
+    margin-left: 1230px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.blockVi {
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px rgba(133, 128, 128, 0.9);  
+    margin-left:640px;
+    margin-top: 100px;
+}
+
+.end {
+    font-size: 40px;
+    margin-left: 620px;
+    margin-top: -20px;
+    position: relative;
+    top: -380px;
 }
