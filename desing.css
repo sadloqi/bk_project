@@ -808,3 +808,126 @@ iframe {
 .container3 input:checked ~ svg {
   fill: #E3474F;
 }
+
+.card3 {
+    height: 600px;
+    width: 460px;
+    background-color: #ebecef;
+    padding: 16px;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 300px;
+    margin-top:  30px;
+}
+
+.card4 {
+    height: 600px;
+    width: 560px;
+    background-color: #ebecef;
+    padding: 16px;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 1060px;
+    margin-top: -600px;
+}
+
+.loli {
+    font-size: 30px;
+    margin-left: 800px;
+
+}
+
+.firstt {
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 350px;
+    margin-top: 100px;  
+}
+
+.blockV {
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px rgba(133, 128, 128, 0.9);  
+    margin-left:650px;
+    margin-top: 10px;
+}
+
+.anime {
+    margin-left: 800px;
+    font-weight: lighter;
+}
+
+.opis {
+    margin-top: -150px;
+    position: relative;
+    top: -100px;
+    margin-left: 70px;
+    font-size: larger;
+}
+
+.opis1 {
+    margin-top: -160px;
+    position: relative;
+    top: -200px;
+    margin-left: 1280px;
+    font-size: larger;
+}
+
+.final {
+    margin-top: -160px;
+    margin-left: 750px;
+}
+.all {
+    margin-top: -90px;
+}
+
+.second {
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 250px;
+    margin-top: 100px;  
+}
+
+
+.immg {
+    width: 33%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+    
+.immg1 {
+    width: 33%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+    
+.immg2 {
+    width: 33%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+.immg:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.immg1:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.immg2:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
